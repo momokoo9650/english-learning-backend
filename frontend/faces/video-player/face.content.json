@@ -1,0 +1,14 @@
+// Path: frontend/faces/video-player/face.content.json
+
+{
+  "blocks": {
+    "title": {
+      "type": "text",
+      "content": "English Learning Platform"
+    },
+    "subtitle": {
+      "type": "text",
+      "content": "Learn English through videos"
+    }
+  }
+}
