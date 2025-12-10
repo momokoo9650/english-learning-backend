@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  }
+  },
+  "keywords": [
+    "english-learning",
+    "video",
+    "keywords",
+    "education"
+  ],
+  "author": "momoko",
+  "license": "MIT"
 }
