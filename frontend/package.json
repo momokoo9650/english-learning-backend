@@ -1,5 +1,5 @@
 {
-  "name": "english-learning-platform",
+  "name": "echotube-frontend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,22 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.3",
-    "react": "^19",
-    "react-dom": "^19",
-    "lucide-react": "^0.469.0",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "tailwind-merge": "^2.6.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "lucide-react": "^0.263.1"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "15.1.3"
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
   }
 }

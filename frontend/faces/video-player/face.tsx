@@ -1,3 +1,5 @@
-// Path: frontend/faces/video-player/face.tsx
+import VideoManageView from './components/VideoManageView'
 
-[COMPONENT FILE CONTENT PLACEHOLDER]
+export default function VideoPlayerFace() {
+  return <VideoManageView />
+}

@@ -1,21 +1,19 @@
-// Path: frontend/app/layout.tsx
-
-import type { Metadata } from "next";
-import "./globals.css";
+import './globals.css'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "English Learning Platform - echoTube",
-  description: "Professional English video learning platform",
-};
+  title: 'EchoTube - 英语学习平台',
+  description: '通过视频学习英语，AI 智能生成关键词卡片',
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
+    <html lang="zh-CN">
       <body>{children}</body>
     </html>
-  );
+  )
 }
